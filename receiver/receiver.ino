@@ -18,7 +18,6 @@ String dado = "0";
 int i = 0;
 
 void setup() {
-  
    lcd.begin(16, 20);
    receptor.begin(300); 
    pinMode(ledPin, OUTPUT);
